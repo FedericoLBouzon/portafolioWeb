@@ -1,0 +1,48 @@
+*{
+   font-family: 'League Spartan', sans-serif;
+
+}
+h2{
+   margin-left: 45%;
+}
+
+.projects-container {
+   font-family: 'Hind', sans-serif !important;
+   font-family: 'League Spartan', sans-serif !important; 
+  background-color: #231123;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0px;
+}
+.titleP{
+   margin-top: 15px;
+   color: rgb(238, 211, 153);
+}
+
+.project {
+   width: 40%;
+  margin-bottom: 20px;
+  margin-left: 6.5%;
+  box-sizing: border-box;
+}
+
+   @media (max-width: 768px) {
+      .projects-container {
+        flex-direction: column;
+        align-items: center;
+      }
+
+   
+    
+      .project {
+        width: 80%; /* Ancho del 80% en dispositivos móviles */
+        margin-left: 6%;
+      }
+      h2{
+         margin-left: 4%;
+      }
+      .titleP{
+         margin-left: 5%;
+      }
+
+    }
